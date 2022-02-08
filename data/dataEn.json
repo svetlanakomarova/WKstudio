@@ -276,7 +276,7 @@
       "titleImage": "moscConfRM-main-crop.jpg",
       "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "imageList" : [
-        {"img" : "main.jpg"},
+        {"img" : "main.webp"},
         {"img" : "pic-1.jpg"},
         {"img" : "pic-2.webp"},
         {"img" : "pic-3.webp"},
