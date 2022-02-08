@@ -1,0 +1,539 @@
+{
+  "PersonalData" : {
+    "FirstName" : "Witalis",
+    "LastName" : "Komarow"
+  },
+  "ArchitecturalProject" : [
+    {
+      "projectId" : "scktch",
+      "title": "Sketches",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2019", 
+      "titleImage": "scktch-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.jpg"}
+      ]
+    },
+    {
+      "projectId" : "moscHouseModel",
+      "title": "House model",
+      "subtitle" : "Moscow, Russia", 
+      "year" : "2016",
+      "titleImage": "maket-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.jpg"},
+        {"img" : "pic-5.jpg"}
+      ]
+    },
+    {
+      "projectId" : "surgOffice",
+      "title": "Office building for Royal Group LLC",
+      "subtitle" : "Surgut, Russia",
+      "year" : "2018", 
+      "titleImage": "RGO-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"}
+      ]
+    },
+    {
+      "projectId" : "mobileHouse",
+      "title": "Modular",
+      "subtitle" : "Mobile house for glamping",
+      "year" : "2021", 
+      "titleImage": "modular-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"}
+      ]
+    },
+    {
+      "projectId" : "lenPrHouse",
+      "title": "Private house",
+      "subtitle" : "Leningrad Region, Russia",
+      "year" : "2021", 
+      "titleImage": "LR-house-main-crop.png",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"}
+      ]
+    },
+    {
+      "projectId" : "moscBthHouse",
+      "title": "Bath house",
+      "subtitle" : "Moscow Region, Russia",
+      "year" : "2021", 
+      "titleImage": "bath-house-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"},
+        {"img" : "pic-5.webp"},
+        {"img" : "pic-6.webp"}
+      ]
+    },
+    {
+      "projectId" : "moscCtg",
+      "title": "Cottage",
+      "subtitle" : "Moscow Region, Russia",
+      "year" : "2021", 
+      "titleImage": "moscow-cottage-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"},
+        {"img" : "pic-5.webp"},
+        {"img" : "pic-6.webp"},
+        {"img" : "pic-7.webp"},
+        {"img" : "pic-8.webp"},
+        {"img" : "pic-9.jpg"},
+        {"img" : "pic-10.jpg"},
+        {"img" : "pic-11.jpg"}
+      ]
+    },
+    {
+      "projectId" : "jizzRecnstr",
+      "title": "Facade reconstruction",
+      "subtitle" : "Jizzakh, Uzbekistan",
+      "year" : "2021", 
+      "titleImage": "uzb-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.jpg"}
+      ]
+    },
+    {
+      "projectId" : "wrswPrHouse",
+      "title": "Private house",
+      "subtitle" : "Warsaw region, Poland",
+      "year" : "2021", 
+      "titleImage": "warsaw-hous-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"}
+      ]
+    },
+    {
+      "projectId" : "moscSwmPool",
+      "title": "Private swimming pool",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2010", 
+      "titleImage": "Nav_swim_pool-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.jpg"},
+        {"img" : "pic-5.webp"}
+      ]
+    },
+    {
+      "projectId" : "albPrHouse",
+      "title": "Private house reconstruction",
+      "subtitle" : "Albarella, Italy",
+      "year" : "2016", 
+      "titleImage": "italy-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-9.jpg"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"},
+        {"img" : "pic-5.jpg"},
+        {"img" : "pic-8.jpg"},
+        {"img" : "pic-6.jpg"},
+        {"img" : "pic-7.jpg"}
+      ]
+    }    
+  ],
+  "InteriorProject" : [
+    {
+      "projectId" : "moscMCathlt",
+      "title": "Athlete Clinical Center",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2018", 
+      "titleImage": "moscMC-athlete-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-4.webp"},
+        {"img" : "pic-5.webp"},
+        {"img" : "pic-6.jpg"},
+        {"img" : "pic-7.webp"},
+        {"img" : "pic-8.webp"},
+        {"img" : "pic-9.webp"},
+        {"img" : "pic-10.webp"}
+      ]
+    },
+    {
+      "projectId" : "yaltaMC",
+      "title": "National medical center",
+      "subtitle" : "Yalta, Crimea",
+      "year" : "2020", 
+      "titleImage": "yalta-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"},
+        {"img" : "pic-5.webp"},
+        {"img" : "pic-6.webp"},
+        {"img" : "pic-7.webp"}
+      ]
+    },
+    {
+      "projectId" : "nav",
+      "title": "Internal navigation elements",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2014", 
+      "titleImage": "nav-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.jpg"},
+        {"img" : "pic-5.webp"},
+        {"img" : "pic-6.webp"},
+        {"img" : "pic-7.webp"},
+        {"img" : "pic-8.webp"}
+      ]
+    },
+    {
+      "projectId" : "moscHospRM",
+      "title": "Hospital room",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2018", 
+      "titleImage": "moscHospRm-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"}
+      ]
+    },
+    {
+      "projectId" : "moscBP",
+      "title": "Office. Business park, Rumyantsevo",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2018", 
+      "titleImage": "moscBP-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.jpg"},
+        {"img" : "pic-5.webp"},
+        {"img" : "pic-6.jpg"}
+      ]
+    },
+    {
+      "projectId" : "moscConfRM",
+      "title": "Conference room",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2021", 
+      "titleImage": "moscConfRM-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.jpg"}
+      ]
+    },
+    {
+      "projectId" : "post",
+      "title": "Posters",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2020", 
+      "titleImage": "poster-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.jpg"}
+      ]
+    },
+    {
+      "projectId" : "moscApt18",
+      "title": "Apartment #18. Moscow",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2021", 
+      "titleImage": "moscApt18-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.webp"},
+        {"img" : "pic-5.webp"}
+      ]
+
+    },
+    {
+      "projectId" : "moscApt47",
+      "title": "Apartment #47. Moscow",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2020", 
+      "titleImage": "moscApt47-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"},
+        {"img" : "pic-5.webp"},
+        {"img" : "pic-10.jpg"},
+        {"img" : "pic-6.jpg"},
+        {"img" : "pic-11.jpg"},
+        {"img" : "pic-12.jpg"},
+        {"img" : "pic-24.webp"},
+        {"img" : "pic-7.webp"},
+        {"img" : "pic-8.jpg"},
+        {"img" : "pic-9.jpg"},
+        {"img" : "pic-13.jpg"},
+        {"img" : "pic-14.jpg"},
+        {"img" : "pic-15.jpg"},
+        {"img" : "pic-16.webp"},
+        {"img" : "pic-17.webp"},
+        {"img" : "pic-18.jpg"},
+        {"img" : "pic-19.jpg"},
+        {"img" : "pic-20.jpg"},
+        {"img" : "pic-21.jpg"},
+        {"img" : "pic-22.jpg"},
+        {"img" : "pic-23.jpg"}
+      ]
+    },
+    {
+      "projectId" : "moscCrmsh",
+      "title": "Apartment. Cheremushki",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2020", 
+      "titleImage": "moscCrmsh-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"}
+      ]
+    },
+    {
+      "projectId" : "sntptrbApt",
+      "title": "Apartment",
+      "subtitle" : "Saint Petersburg, Russia",
+      "year" : "2019", 
+      "titleImage": "sntptrb-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"},
+        {"img" : "pic-5.webp"},
+        {"img" : "pic-6.webp"},
+        {"img" : "pic-7.webp"},
+        {"img" : "pic-8.webp"},
+        {"img" : "pic-9.webp"},
+        {"img" : "pic-10.webp"},
+        {"img" : "pic-11.webp"}
+      ]
+    },
+    {
+      "projectId" : "istraCtg",
+      "title": "Cottage. Village \"Swetlogorye\"",
+      "subtitle" : "Istra Distric, Russia", 
+      "year" : "2018",
+      "titleImage": "istraCtg-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.webp"},
+        {"img" : "pic-1.webp"},
+        {"img" : "pic-2.webp"},
+        {"img" : "pic-9.jpg"},
+        {"img" : "pic-3.webp"},
+        {"img" : "pic-4.webp"},
+        {"img" : "pic-10.jpg"},
+        {"img" : "pic-5.webp"},
+        {"img" : "pic-7.jpg"},
+        {"img" : "pic-8.jpg"},
+        {"img" : "pic-6.webp"}     
+      ]
+    },
+    {
+      "projectId" : "moscCtg",
+      "title": "Cottage. Moscow",
+      "subtitle" : "Moscow, Russia", 
+      "year" : "2018",
+      "titleImage": "moscCtg-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.jpg"}
+      ]
+    },
+    {
+      "projectId" : "moscApt01",
+      "title": "Apartment. Moscow",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2018", 
+      "titleImage": "moscApt01-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.jpg"}
+      ]
+    },
+    {
+      "projectId" : "moscAndrApt",
+      "title": "Apartment. Residential complex \"Andersen\"",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2018", 
+      "titleImage": "moscAndrApt-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.jpg"},
+        {"img" : "pic-5.jpg"},
+        {"img" : "pic-6.jpg"},
+        {"img" : "pic-7.webp"},
+        {"img" : "pic-8.webp"},
+        {"img" : "pic-9.webp"}
+      ]
+
+    },
+    {
+      "projectId" : "moscKADO",
+      "title": "Shopping center",
+      "subtitle" : "Lukhovitsy, Russia",
+      "year" : "2018", 
+      "titleImage": "moscKADO-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"}
+      ]
+    },
+    {
+      "projectId" : "moscTopJwl",
+      "title": "\"Top Jeweler\" store",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2018", 
+      "titleImage": "moscTopJwl-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"},
+        {"img" : "pic-2.jpg"},
+        {"img" : "pic-3.jpg"},
+        {"img" : "pic-4.jpg"},
+        {"img" : "pic-5.jpg"}
+      ]
+    },
+    {
+      "projectId" : "moscMD",
+      "title": "\"M&D\" store",
+      "subtitle" : "Moscow, Russia",
+      "year" : "2017", 
+      "titleImage": "md-main-crop.jpg",
+      "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "imageList" : [
+        {"img" : "main.jpg"},
+        {"img" : "pic-1.jpg"}
+      ]
+    },
+    {
+        "projectId" : "beer",
+        "title": "Restaurant \"1L\"",
+        "subtitle" : "Moscow, Russia",
+        "year" : "2016", 
+        "titleImage": "beer-main-crop.jpg",
+        "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+        "imageList" : [
+          {"img" : "main.jpg"}
+        ]
+    }    
+  ],
+
+
+  "Art" : [
+    {
+      "title" : "Lady 1",
+      "details" : "Canvas 10x10",
+      "date" : "November, 2021",
+      "image" : "art-1.jpg",
+      "status" : "available",
+      "price" : "$"
+    },
+    {
+      "title" : "Lady 2",
+      "details" : "Canvas 10x10",
+      "date" : "2022",
+      "image" : "art-2.jpg",
+      "status" : "available",
+      "price" : "$"
+    },
+    {
+      "title" : "Lady 3",
+      "details" : "Canvas 10x10",
+      "date" : "2022",
+      "image" : "art-3.jpg",
+      "status" : "available",
+      "price" : "$"
+    }
+  ]
+}

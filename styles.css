@@ -1,0 +1,1122 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/*--spacer--*/
+
+.largespacer {
+  height: 100px;
+}
+
+.mediumspacer {
+  height: 50px;
+}
+
+.smallspacer {
+  height: 5px;
+}
+
+
+/*--backto top--*/
+
+.back-to-top {
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  display: inline-block;
+  margin: 1em;
+  padding: 1em;
+  
+}
+
+.back-to-top img {
+  width: 18px;
+}
+
+.back-to-top:hover {
+  cursor: pointer;
+}
+
+.copywrap {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.JAcopyWrite {
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+}
+
+
+/*--sidebar--*/
+
+.JA-sidebar {
+  position: fixed;
+  left: 0px;
+  overflow: hidden;
+  width: 17%;
+  height: 100%;
+  margin-left: 3%;
+}
+
+.JA-verticalMenuWrap {
+  position: relative;
+  top: 30%;
+  overflow: hidden;
+}
+
+.JA-title {
+  font-size: 1.05em;
+}
+
+.JA-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.JA-title a:hover {
+  text-decoration: none;
+  color: black;
+}
+.JA-title a img {
+  width: 120px;
+}
+
+.JA_verticalMenu {
+  margin-top: 20%;
+
+  text-align: left;
+}
+
+.JA_verticalMenu ul {
+  width: 100%;
+padding: 0px;
+  list-style: none;
+}
+
+.JA_verticalMenu ul li {
+  position: relative;
+  right: 0px;
+
+  margin-left: 0px;
+}
+
+.JA_verticalMenu ul li a {
+  display: block;
+  margin-left: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: black;
+  font-size: 0.85em;
+  font-weight: 300;
+}
+
+.JA_verticalMenu ul li span {
+  display: block;
+  margin-left: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.JA_verticalMenu ul li a:hover {
+  color: #797979;
+}
+
+
+
+.JAcopyWrite {
+  position: fixed;
+  bottom: 10px;
+  font-size: 0.6em;
+}
+
+.JA-socialWrap {
+  position: fixed;
+  bottom: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.JA-socialWrap ul {
+  position: relative;
+  margin: 0px 0px 6px 0px;
+  padding: 0px;
+  list-style: none;
+
+}
+
+.JA-socialWrap ul li {
+  display: inline-block;
+  width: 9%;
+  margin: 0px;
+ 
+  padding:0px;
+}
+
+.JA-socialWrap ul li a i{
+  color: #000;
+  font-size: 1.5rem; /*--icon size--*/
+
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 8rem;
+ 
+}
+
+
+
+
+@media screen and (max-width: 641px) {
+  .JA-sidebar {
+      display: none;
+      width: 0%;
+      margin-left: 0%;
+  }
+}
+
+
+/*--JA-mainScroll--*/
+
+.JA-mainScroll {
+  width: 70vw;
+  margin-left: 25%;
+}
+
+
+.JA-importanNews img {
+  overflow: hidden;
+  max-height: 90vh;
+  max-width: 90%;
+  margin: 12px;
+  position: relative;
+  float: left;
+}
+
+.projectsButton {
+  cursor: pointer;
+}
+
+.JA-projectPageLink {
+  overflow: inherit;
+  text-decoration: none;
+}
+
+.JA-projectPageLink img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.JA-linkWrap {
+
+  float: left;
+  margin: 12px;
+  position: relative;
+
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.clearright {
+  clear: right;
+}
+
+.clearleft {
+  clear: left;
+}
+
+.JA-linkWrap:nth-child(2) {
+  margin-top: 50px;
+}
+
+
+
+/**************
+THIS FUNCTION HANDLES THE FUNCTIONALITY OF THE IMAGE TURNING GREY 
+WHEN YOU HOVER YOUR MOUSE OVER THE IMAGE
+***************/
+.JA-linkWrap:hover img{
+  -webkit-filter: brightness(50%);
+}
+
+
+
+
+
+/**************
+THIS FUNCTION HANDLES THE FUNCTIONALITY OF THE HEADING 
+WHEN YOU HOVER YOUR MOUSE OVER THE IMAGE
+***************/
+.img_head{
+text-align: center;
+color: #fff;
+visibility: hidden; /*invisible when mouse is not hovering over the image */
+opacity: 0;
+transition: opacity.2s, visibility .2s;
+font-family: sans-serif;
+font-weight: bold; /*heading has to have more emphasis than subheading*/
+font-size: 18px; 
+ 
+
+/*Change the following if you wanna change the font of the heading
+font-style:
+font-size:
+*/
+}
+
+
+
+/**************
+THIS FUNCTION HANDLES THE FUNCTIONALITY OF THE SUBHEADING 
+WHEN YOU HOVER YOUR MOUSE OVER THE IMAGE
+***************/
+.img_description{
+text-align:justify;
+color:#fff;
+visibility: hidden;
+opacity: 0; /*invisible when mouse is not hovering over the image */
+transition: opacity.2s, visibility .2s;
+font-family: sans-serif;
+font-size: 12px;
+  
+/*Change the following if you wanna change the font of the subheading
+font-style:
+font-size:
+*/
+
+}
+
+
+
+/**************
+THIS FUNCTION HANDLES THE FUNCTIONALITY OF HOVERING ON THE TEXT
+***************/
+.JA-linkWrap:hover .img_description, .JA-linkWrap:hover .img_head{
+
+visibility: visible;
+opacity: 1; /*this is the "hardness" of the text*/
+}
+
+
+/**************
+THIS FUNCTION SETS THE SIZE OF THE WRAPPER LIKE THE BOX OF THE IMAGE. 
+THEN IT USES FLEXBOX TO VERTICALLY ALIGN TITLES INSIDE THE WRAPPER.
+***************/
+.title-wrapper {
+
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+
+.JA_linkImage {
+  border-color: black;
+  border-bottom-style: solid;
+}
+
+.JA-captionTiltle {
+  text-align: center;
+  color: black;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+
+  font-size: 0.95em;
+}
+.JA-number {
+  text-align: left;
+  color: black;
+  font-family: 'TimesNewRoman', "Times New Roma";
+  font-size: 0.95em;
+  font-weight: 300;
+}
+.JA-caption {
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+  font-size: 0.75em;
+  font-weight: 300;
+}
+
+.JA-linkText {
+  width: inherit;
+  width: 100%;
+  color: black;
+  font-size: 0.75em;
+}
+
+.JA-linkText a {
+  text-decoration: none;
+}
+
+.JA_link {
+  text-decoration: none;
+  color: #808080;
+}
+
+.makelinkngrey {
+  text-decoration: none;
+  color: #728fa4;
+  padding-left: 10px;
+}
+
+.makelinkngreynotsmall {
+  text-decoration: none;
+  color: #728fa4;
+}
+
+.JA-Objects {
+  display: none;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1000px) {
+  .JA-linkWrap {
+      margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .JA-linkWrap {
+      max-width: 100%;
+      margin: auto;
+      margin-top: 20px;
+      float: none;
+      width: 90vw;
+  }
+  .JA-mainScroll {
+      width: 90vw;
+      margin: 0 auto;
+  }
+  .JA-projectPageLink img {
+      width: 90vw;
+      margin: 0 auto;
+      max-width: 100%;
+      position: relative;
+      padding: 0;
+      text-align: center;
+      float: none;
+  }
+  .back-to-top {
+      display: none;
+      opacity: 0;
+      transition: all 1s;
+  }
+  .JA-linkText {
+      max-width: 90%;
+      color: black;
+      font-size: 0.75em;
+      padding: 0px;
+  }
+}
+
+/*--JA-mainScroll end--*/
+
+
+/*--project pages css--*/
+
+.pagetitle {
+  width: 60%;
+  margin-left: 20%;
+  text-align: left;
+}
+
+.pagecontent {
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.pagetitle h1 {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.pagetitle h2 {
+  margin: 0;
+  margin-top: 7px;
+  margin-bottom: 30px;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.pagetitle h2 a {
+  text-decoration: none;
+  color: grey;
+}
+
+.projectimgwrap img {
+  width: 60%;
+  margin: 0 auto;
+  cursor: url(images/main/openLightbox.svg), auto;
+}
+
+.projectsvideo {
+  width: 60%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.projectimagetitle {
+  position: relative;
+  left: 0px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 45px;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.projecttitle {
+  width: 60%;
+  margin: auto;
+  margin-top: 15px;
+  text-align: left;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+
+.projecttext {
+  width: 60%;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: left;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 13px;
+}
+
+.projectcredits {
+  margin-top: 45px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 11px;
+}
+
+.projectlightboxiconswrap {
+  position: relative;
+  width: 100%;
+}
+
+.projectlightbox {
+  width: 50%;
+}
+
+.thumbnailwrap {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 3%;
+  text-align: center;
+}
+
+.thumbnail {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.photocredit {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 0.6em;
+}
+
+
+@media screen and (max-width: 641px) {
+.pagetitle {
+  width: 100%;
+  margin-left: 0%;
+  text-align: left;
+}
+
+.pagecontent {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+
+.pagetitle h1 {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.pagetitle h2 {
+  margin: 0;
+  margin-top: 7px;
+  margin-bottom: 30px;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.pagetitle h2 a {
+  text-decoration: none;
+  color: grey;
+}
+
+.projectimgwrap img {
+  width: 100%;
+  margin: 0 auto;
+  cursor: url(images/main/openLightbox.svg), auto;
+}
+
+.projectsvideo {
+  width: 100%;
+}
+
+.projectimagetitle {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 45px;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.projecttitle {
+  width: 100%;
+
+}
+
+
+.projecttext {
+  width: 100%;
+  font-size: 12px;
+}
+
+.projectcredits {
+  margin-top: 45px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 11px;
+}
+
+.projectlightboxiconswrap {
+  position: relative;
+  width: 100%;
+}
+
+.projectlightbox {
+  width: 50%;
+}
+
+.thumbnailwrap {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 3%;
+  text-align: center;
+}
+}
+
+/*--project pages css end--*/
+
+
+/*--about pages css--*/
+
+.aboutwrap {
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.teamimage {
+  width: 100%;
+  text-align: center;
+}
+
+.teamimage img {
+  width: 100%;
+}
+.teamimagesmall{
+  width: 20%;
+}
+.aboutimgtitle {
+  margin: auto;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.abouttxt,
+.singlepartner,
+.partnerstitle {
+  margin-top: 20px;
+  font-size: 0.82em;
+}
+
+.partnerstitle {
+  margin-top: 20px;
+  font-size: .82em;
+  font-weight: 700;
+}
+
+
+#JA-contact {
+  margin-top: 20px;
+}
+
+
+.adresswrap {
+  margin-top: 20px;
+}
+
+#ja-jobs {
+  margin-top: 20px;
+}
+
+#ja-jobs span {
+  padding-bottom: 200px;
+}
+
+.JA-contactTitle {
+  margin-top: 100px;
+  margin-bottom: 15px;
+  font-size: .82em;
+}
+
+#ja-jobs span {
+  font-size: 0.8em;
+}
+
+#JA_adress {
+  font-size: 0.82em;
+
+}
+
+.JA-mailto {
+  text-decoration: none;
+  color: black;
+}
+.JA-mailto:hover {
+  color: #797979;
+}
+@media screen and (max-width: 641px) {
+
+
+.aboutwrap {
+  position: relative;
+  width: 95%;
+  margin-left: 0%;
+  margin: 0 auto;
+}
+
+.JA-contactTitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: .82em;
+}
+}
+
+/*--about pages css end--*/
+
+
+/*--news pages css--*/
+
+.JA-newsmedialink {
+  display: inline-block;
+  margin: 10px;
+}
+
+
+.JA-lightboxLink {
+  display: block;
+  cursor: url(images/main/openLightbox.svg), auto;
+  color: black;
+  text-decoration: none;
+}
+
+.JA-newsmediaImage {
+  width: 100%;
+}
+
+.JA-newsmediaTitle {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+
+.JA-newsmediaDate {
+  margin-top: 5px;
+  font-size: 0.8em;
+}
+
+.JA-newsmediaText {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.JA-newsmediaText a {
+  text-decoration: none;
+  color: #728fa4;
+}
+
+.JA-publication {
+  text-decoration: none;
+  color: #728fa4;
+}
+
+@media screen and (max-width: 641px) {
+
+  .JA-newsmedialink {
+  margin: 0 auto;
+  max-width: 95vw !important;
+  width: 90vw !important;
+  display:inline;
+}
+
+  .JA-newsmediaImageWrap{
+  max-width: 95vw !important;
+  margin: 0 auto !important;
+   float: left;
+  }
+
+
+.JA-newsmediaImage {
+  max-width: 90vw !important;
+  margin: 0 auto;
+  position: relative;
+  left: 0px;
+   float: left;
+}
+
+.JA-newsmediaTitle {
+  margin-top: 5px;
+  font-size: 0.9em;
+
+}
+
+  .JA-newsmediaImageWrap{
+  margin: 0 auto;
+  max-width: 90vw;
+min-width: 90vw;
+  padding-bottom: 50px;
+  }
+
+.JA-newsmediaText {
+  max-width: 100%;
+  margin-top: 5px;
+  font-size: 0.8em;
+  text-align: left;
+}
+}
+
+
+/*--beta testers--*/
+
+.BQ-wrap {
+  width: 50%;
+  margin: auto;
+  margin-top: 40vh;
+  text-align: center;
+}
+
+.centerme {
+  text-align: center;
+}
+
+.choice {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.movecenter {
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: red;
+  font-size: 2em;
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  font-family: Pacifico;
+  color: chartreuse;
+}
+
+.decline {
+  display: block;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: blue;
+  font-size: 2em;
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  font-family: Pacifico;
+  color: darkturquoise;
+  cursor: pointer;
+}
+
+
+.BT-pagewrap {
+  width: 100%;
+}
+
+.BT-intro {
+  width: 50%;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.BT-links {
+  margin: auto;
+  margin-top: 50px;
+  border: solid 4px black;
+  max-width: 500px;
+}
+
+.BT-links h1 {
+  text-align: center;
+  border-bottom: black 1px solid;
+}
+
+
+.BT-links ul li {
+  list-style: none;
+  padding: 6px;
+}
+
+.BT-links ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  width: 100%;
+}
+
+.BT-links ul li a:hover {
+  background-color: aqua;
+}
+
+
+/*--Hamburger--*/
+
+.JA-hambergerwrap {
+  position: fixed;
+  height: 35px;
+  background-color: #ededed;
+  z-index: 700;
+  margin: 0 auto;
+  top: 0px;
+  width: 100%;
+  transition: all 1s;
+}
+
+.menu {
+  position: relative;
+  background: 0;
+  float: left;
+  left: 3px;
+  margin: 1px;
+  margin-top: 8px;
+  min-height: 35px;
+  min-width: 45px;
+  z-index: 701;
+  outline: 0;
+  padding: 0;
+  border: 0;
+  transition: all 1s;
+}
+
+.bar,
+.bar::before,
+.bar::after {
+  position: absolute;
+  background: #000;
+  width: 20px;
+  height: 3px;
+  content: '';
+  left: 0;
+}
+
+.bar {
+  margin-top: -10px;
+}
+
+.bar::before {
+  top: -5px;
+}
+
+.bar::after {
+  top: 5px;
+}
+
+.active .bar {
+  background: 0;
+}
+
+.active .bar::before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.active .bar::after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.active .bar::before,
+.active .bar::after {
+  top: 0;
+}
+
+.active .bar,
+.active .bar::before,
+.active .bar::after {
+  -webkit-transition: 0.05s background linear 0.05s, 0.05s top linear, 0.05s -webkit-transform linear 0.1s;
+  transition: 0.1s background linear 0.1s, 0.05s top linear, 0.05s -webkit-transform linear 0.1s;
+  transition: 0.1s background linear 0.1s, 0.05s top linear, 0.05s transform linear 0.05s;
+  transition: 0.1s background linear 0.05s, 0.05s top linear, 0.05s transform linear 0.05s, 0.05s -webkit-transform linear 0.05s;
+}
+
+nav {
+  width: 50%;
+  height: 100%;
+  background: #ededed;
+  position: fixed;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91), -webkit-transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  padding-top: 6.2rem;
+  text-align: center;
+}
+
+.menu-open nav {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+
+@media screen and (min-width: 641px) {
+
+ .menu-open nav{
+      display: none;
+  }
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  padding-left: 4px;
+}
+
+nav ul li {
+  padding: 20px 5px;
+  font-size: 1em;
+  /*  border-bottom: 0.5px black solid;*/
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:hover {
+  background: #e4e4e4;
+}
+
+nav ul li:hover {
+  background: #e4e4e4;
+}
+
+.HamSoc {
+  display: inline-block;
+  text-align: center;
+}
+
+.HamSoc li {
+  float: left;
+  max-height: 5px;
+  width: 10%;
+  margin: auto;
+
+}
+
+.HamSoc li a i{
+  font-size: 1.5rem; /*--icon size--*/
+  margin-right: 6rem;
+}
+
+
+
+
+
+
+@media screen and (min-width: 641px) {
+  .JA-hambergerwrap {
+      width: 0%;
+      transition: all 1s;
+  }
+  .menu {
+      left: -45px;
+      transition: all 1s;
+  }
+}
+
+
