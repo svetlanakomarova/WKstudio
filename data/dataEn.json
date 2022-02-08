@@ -308,8 +308,8 @@
       "imageList" : [
         {"img" : "main.webp"},
         {"img" : "pic-1.jpg"},
-        {"img" : "pic-2.webp"},
         {"img" : "pic-3.jpg"},
+        {"img" : "pic-2.webp"},
         {"img" : "pic-4.webp"},
         {"img" : "pic-5.webp"}
       ]
