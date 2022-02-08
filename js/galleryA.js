@@ -79,7 +79,7 @@ function mainScreen() {
   for (let x = 0; x < imageList.length; x++) {
     $(".container").append(
       `   
-      <a href="images/architecture/${projectId}/${imageList[x]}" data-lightbox="${title}">
+      <a href="images/architecture/${projectId}/${imageList[x]}" data-lightbox="${projectId}">
       <div class="projectimgwrap">
         <img src="images/architecture/${projectId}/${imageList[x]}" alt="image ${x+1} of ${title}">
        </div></a>
