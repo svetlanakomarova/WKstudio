@@ -48,8 +48,8 @@ function loadEnJSON(data) {
 }// end of loadJSON
 
 function mainScreen() {
-  $(".JA-scrollWrap").html("");
-  $(".JA-scrollWrap").append (
+  $(".WK-scrollWrap").html("");
+  $(".WK-scrollWrap").append (
     `
     <div class="smallspacer"></div>
     <div class="smallspacer"></div>
@@ -57,12 +57,12 @@ function mainScreen() {
     `
   )
   for (let x = 0; x < projectList.length; x++) {
-    $(".JA-scrollWrap").append(
+    $(".WK-scrollWrap").append(
       `   
-      <div id="list" class="JA-linkWrap JA-Notprojects JA-NotObjects floatleft" style="width:300px;">
-      <a href="galleryI.html" class="JA-projectPageLink" id='${projectList[x].projectId}'>
+      <div id="list" class="WK-linkWrap WK-Notprojects WK-NotObjects floatleft" style="width:300px;">
+      <a href="galleryI.html" class="WK-projectPageLink" id='${projectList[x].projectId}'>
           <img src="images/interior/${projectList[x].titleImage}" alt="image of an interior thing"
-              class="JA-newsmediaImage">
+              class="WK-newsmediaImage">
           <div class="title-wrapper">
               <h2 class="img_head">${projectList[x].title}</h2>
               <p class="img_description">${projectList[x].subtitle} | ${projectList[x].year}</p>

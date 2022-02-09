@@ -50,27 +50,27 @@ function loadEnJSON(data) {
 }// end of loadJSON
 
 function mainScreen() {
-  $(".JA-mainScroll").html("");
-  $(".JA-mainScroll").append(
+  $(".WK-mainScroll").html("");
+  $(".WK-mainScroll").append(
     `
     <div class="largespacer"></div>
     `
   )
   for (let x = 0; x < artList.length; x++) {
-    $(".JA-mainScroll").append(
+    $(".WK-mainScroll").append(
       `   
-      <div class="JA-newsmedialink" style="width:400px;">
-        <div class="JA-newsmediaImageWrap "> 
-          <a href="images/art/${artList[x].image}" data-lightbox="art" class="JA-lightboxLink">
+      <div class="WK-newsmedialink" style="width:400px;">
+        <div class="WK-newsmediaImageWrap "> 
+          <a href="images/art/${artList[x].image}" data-lightbox="art" class="WK-lightboxLink">
             <figure> 
-              <img src="images/art/${artList[x].image}" alt="news thing" class="JA-newsmediaImage">
-              <figcaption class="JA-newsmediaText">
+              <img src="images/art/${artList[x].image}" alt="news thing" class="WK-newsmediaImage">
+              <figcaption class="WK-newsmediaText">
                 <p><strong>${artList[x].title}</strong></p>
                 <p>${artList[x].details}&nbsp;&nbsp;|&nbsp;&nbsp;${artList[x].status}</p>
               </figcaption>
             </figure>
           </a>
-          <div class="JA-newsmediaDate">
+          <div class="WK-newsmediaDate">
           <p>${artList[x].date}</p>
           </div>
         </div>     

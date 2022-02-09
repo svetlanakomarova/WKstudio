@@ -55,7 +55,7 @@ body {
   text-align: center;
 }
 
-.JAcopyWrite {
+.WKcopyWrite {
   margin: 0px;
   padding: 0px;
   font-size: 10px;
@@ -64,7 +64,7 @@ body {
 
 /*--sidebar--*/
 
-.JA-sidebar {
+.WK-sidebar {
   position: fixed;
   left: 0px;
   overflow: hidden;
@@ -73,49 +73,49 @@ body {
   margin-left: 3%;
 }
 
-.JA-verticalMenuWrap {
+.WK-verticalMenuWrap {
   position: relative;
   top: 30%;
   overflow: hidden;
 }
 
-.JA-title {
+.WK-title {
   font-size: 1.05em;
 }
 
-.JA-title a {
+.WK-title a {
   text-decoration: none;
   color: black;
 }
 
-.JA-title a:hover {
+.WK-title a:hover {
   text-decoration: none;
   color: black;
 }
-.JA-title a img {
+.WK-title a img {
   width: 120px;
 }
 
-.JA_verticalMenu {
+.WK_verticalMenu {
   margin-top: 20%;
 
   text-align: left;
 }
 
-.JA_verticalMenu ul {
+.WK_verticalMenu ul {
   width: 100%;
 padding: 0px;
   list-style: none;
 }
 
-.JA_verticalMenu ul li {
+.WK_verticalMenu ul li {
   position: relative;
   right: 0px;
 
   margin-left: 0px;
 }
 
-.JA_verticalMenu ul li a {
+.WK_verticalMenu ul li a {
   display: block;
   margin-left: 0px;
   padding-top: 3px;
@@ -126,7 +126,7 @@ padding: 0px;
   font-weight: 300;
 }
 
-.JA_verticalMenu ul li span {
+.WK_verticalMenu ul li span {
   display: block;
   margin-left: 0px;
   padding-top: 3px;
@@ -138,26 +138,26 @@ padding: 0px;
   font-weight: 300;
 }
 
-.JA_verticalMenu ul li a:hover {
+.WK_verticalMenu ul li a:hover {
   color: #797979;
 }
 
 
 
-.JAcopyWrite {
+.WKcopyWrite {
   position: fixed;
   bottom: 10px;
   font-size: 0.6em;
 }
 
-.JA-socialWrap {
+.WK-socialWrap {
   position: fixed;
   bottom: 25px;
   margin: 0px;
   padding: 0px;
 }
 
-.JA-socialWrap ul {
+.WK-socialWrap ul {
   position: relative;
   margin: 0px 0px 6px 0px;
   padding: 0px;
@@ -165,7 +165,7 @@ padding: 0px;
 
 }
 
-.JA-socialWrap ul li {
+.WK-socialWrap ul li {
   display: inline-block;
   width: 9%;
   margin: 0px;
@@ -173,7 +173,7 @@ padding: 0px;
   padding:0px;
 }
 
-.JA-socialWrap ul li a i{
+.WK-socialWrap ul li a i{
   color: #000;
   font-size: 1.5rem; /*--icon size--*/
 
@@ -187,7 +187,7 @@ padding: 0px;
 
 
 @media screen and (max-width: 641px) {
-  .JA-sidebar {
+  .WK-sidebar {
       display: none;
       width: 0%;
       margin-left: 0%;
@@ -195,15 +195,15 @@ padding: 0px;
 }
 
 
-/*--JA-mainScroll--*/
+/*--WK-mainScroll--*/
 
-.JA-mainScroll {
+.WK-mainScroll {
   width: 70vw;
   margin-left: 25%;
 }
 
 
-.JA-importanNews img {
+.WK-importanNews img {
   overflow: hidden;
   max-height: 90vh;
   max-width: 90%;
@@ -216,17 +216,17 @@ padding: 0px;
   cursor: pointer;
 }
 
-.JA-projectPageLink {
+.WK-projectPageLink {
   overflow: inherit;
   text-decoration: none;
 }
 
-.JA-projectPageLink img {
+.WK-projectPageLink img {
   width: 100%;
   max-width: 100%;
 }
 
-.JA-linkWrap {
+.WK-linkWrap {
 
   float: left;
   margin: 12px;
@@ -250,7 +250,7 @@ padding: 0px;
   clear: left;
 }
 
-.JA-linkWrap:nth-child(2) {
+.WK-linkWrap:nth-child(2) {
   margin-top: 50px;
 }
 
@@ -260,7 +260,7 @@ padding: 0px;
 THIS FUNCTION HANDLES THE FUNCTIONALITY OF THE IMAGE TURNING GREY 
 WHEN YOU HOVER YOUR MOUSE OVER THE IMAGE
 ***************/
-.JA-linkWrap:hover img{
+.WK-linkWrap:hover img{
   -webkit-filter: brightness(50%);
 }
 
@@ -316,7 +316,7 @@ font-size:
 /**************
 THIS FUNCTION HANDLES THE FUNCTIONALITY OF HOVERING ON THE TEXT
 ***************/
-.JA-linkWrap:hover .img_description, .JA-linkWrap:hover .img_head{
+.WK-linkWrap:hover .img_description, .WK-linkWrap:hover .img_head{
 
 visibility: visible;
 opacity: 1; /*this is the "hardness" of the text*/
@@ -343,26 +343,26 @@ flex-wrap: wrap;
 }
 
 
-.JA_linkImage {
+.WK_linkImage {
   border-color: black;
   border-bottom-style: solid;
 }
 
-.JA-captionTiltle {
+.WK-captionTiltle {
   text-align: center;
   color: black;
   font-family: 'Arial', 'Helvetica', sans-serif;
 
   font-size: 0.95em;
 }
-.JA-number {
+.WK-number {
   text-align: left;
   color: black;
   font-family: 'TimesNewRoman', "Times New Roma";
   font-size: 0.95em;
   font-weight: 300;
 }
-.JA-caption {
+.WK-caption {
   margin-bottom: 10px;
   text-align: center;
   color: black;
@@ -370,18 +370,18 @@ flex-wrap: wrap;
   font-weight: 300;
 }
 
-.JA-linkText {
+.WK-linkText {
   width: inherit;
   width: 100%;
   color: black;
   font-size: 0.75em;
 }
 
-.JA-linkText a {
+.WK-linkText a {
   text-decoration: none;
 }
 
-.JA_link {
+.WK_link {
   text-decoration: none;
   color: #808080;
 }
@@ -397,29 +397,29 @@ flex-wrap: wrap;
   color: #728fa4;
 }
 
-.JA-Objects {
+.WK-Objects {
   display: none;
 }
 
 @media screen and (min-width: 641px) and (max-width: 1000px) {
-  .JA-linkWrap {
+  .WK-linkWrap {
       margin-left: 15%;
   }
 }
 
 @media screen and (max-width: 641px) {
-  .JA-linkWrap {
+  .WK-linkWrap {
       max-width: 100%;
       margin: auto;
       margin-top: 20px;
       float: none;
       width: 90vw;
   }
-  .JA-mainScroll {
+  .WK-mainScroll {
       width: 90vw;
       margin: 0 auto;
   }
-  .JA-projectPageLink img {
+  .WK-projectPageLink img {
       width: 90vw;
       margin: 0 auto;
       max-width: 100%;
@@ -433,7 +433,7 @@ flex-wrap: wrap;
       opacity: 0;
       transition: all 1s;
   }
-  .JA-linkText {
+  .WK-linkText {
       max-width: 90%;
       color: black;
       font-size: 0.75em;
@@ -441,7 +441,7 @@ flex-wrap: wrap;
   }
 }
 
-/*--JA-mainScroll end--*/
+/*--WK-mainScroll end--*/
 
 
 /*--project pages css--*/
@@ -705,7 +705,7 @@ flex-wrap: wrap;
 }
 
 
-#JA-contact {
+#WK-contact {
   margin-top: 20px;
 }
 
@@ -714,34 +714,34 @@ flex-wrap: wrap;
   margin-top: 20px;
 }
 
-#ja-jobs {
+#wk-jobs {
   margin-top: 20px;
 }
 
-#ja-jobs span {
+#wk-jobs span {
   padding-bottom: 200px;
 }
 
-.JA-contactTitle {
+.WK-contactTitle {
   margin-top: 100px;
   margin-bottom: 15px;
   font-size: .82em;
 }
 
-#ja-jobs span {
+#wk-jobs span {
   font-size: 0.8em;
 }
 
-#JA_adress {
+#WK_adress {
   font-size: 0.82em;
 
 }
 
-.JA-mailto {
+.WK-mailto {
   text-decoration: none;
   color: black;
 }
-.JA-mailto:hover {
+.WK-mailto:hover {
   color: #797979;
 }
 @media screen and (max-width: 641px) {
@@ -754,7 +754,7 @@ flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.JA-contactTitle {
+.WK-contactTitle {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: .82em;
@@ -766,66 +766,66 @@ flex-wrap: wrap;
 
 /*--news pages css--*/
 
-.JA-newsmedialink {
+.WK-newsmedialink {
   display: inline-block;
   margin: 10px;
 }
 
 
-.JA-lightboxLink {
+.WK-lightboxLink {
   display: block;
   cursor: url(images/main/openLightbox.svg), auto;
   color: black;
   text-decoration: none;
 }
 
-.JA-newsmediaImage {
+.WK-newsmediaImage {
   width: 100%;
 }
 
-.JA-newsmediaTitle {
+.WK-newsmediaTitle {
   margin-top: 10px;
   font-size: 0.9em;
 }
 
 
-.JA-newsmediaDate {
+.WK-newsmediaDate {
   margin-top: 5px;
   font-size: 0.8em;
 }
 
-.JA-newsmediaText {
+.WK-newsmediaText {
   margin-top: 10px;
   font-size: 0.8em;
 }
 
-.JA-newsmediaText a {
+.WK-newsmediaText a {
   text-decoration: none;
   color: #728fa4;
 }
 
-.JA-publication {
+.WK-publication {
   text-decoration: none;
   color: #728fa4;
 }
 
 @media screen and (max-width: 641px) {
 
-  .JA-newsmedialink {
+  .WK-newsmedialink {
   margin: 0 auto;
   max-width: 95vw !important;
   width: 90vw !important;
   display:inline;
 }
 
-  .JA-newsmediaImageWrap{
+  .WK-newsmediaImageWrap{
   max-width: 95vw !important;
   margin: 0 auto !important;
    float: left;
   }
 
 
-.JA-newsmediaImage {
+.WK-newsmediaImage {
   max-width: 90vw !important;
   margin: 0 auto;
   position: relative;
@@ -833,20 +833,20 @@ flex-wrap: wrap;
    float: left;
 }
 
-.JA-newsmediaTitle {
+.WK-newsmediaTitle {
   margin-top: 5px;
   font-size: 0.9em;
 
 }
 
-  .JA-newsmediaImageWrap{
+  .WK-newsmediaImageWrap{
   margin: 0 auto;
   max-width: 90vw;
 min-width: 90vw;
   padding-bottom: 50px;
   }
 
-.JA-newsmediaText {
+.WK-newsmediaText {
   max-width: 100%;
   margin-top: 5px;
   font-size: 0.8em;
@@ -952,7 +952,7 @@ min-width: 90vw;
 
 /*--Hamburger--*/
 
-.JA-hambergerwrap {
+.WK-hambergerwrap {
   position: fixed;
   height: 35px;
   background-color: #ededed;
@@ -1034,6 +1034,7 @@ nav {
   width: 50%;
   height: 100%;
   background: #ededed;
+  /* opacity: 0.9; */
   position: fixed;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
@@ -1109,13 +1110,15 @@ nav ul li:hover {
 
 
 @media screen and (min-width: 641px) {
-  .JA-hambergerwrap {
+  .WK-hambergerwrap {
       width: 0%;
       transition: all 1s;
+
   }
   .menu {
       left: -45px;
       transition: all 1s;
+
   }
 }
 
