@@ -120,7 +120,7 @@ ${vision}
         </div>
         <!--page content end-->
         <!--credits end------------------------------------------->
-        <div class="largespacer"></div>
+        <div class="mediumspacer"></div>
     `
   )
   
