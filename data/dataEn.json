@@ -443,7 +443,6 @@
       "titleImage": "moscAndrApt-main-crop.jpg",
       "vision" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "imageList" : [
-        {"img" : "main.jpg"},
         {"img" : "pic-1.jpg"},
         {"img" : "pic-2.jpg"},
         {"img" : "pic-3.jpg"},
