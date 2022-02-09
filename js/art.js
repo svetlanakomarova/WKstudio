@@ -53,7 +53,7 @@ function mainScreen() {
   $(".WK-mainScroll").html("");
   $(".WK-mainScroll").append(
     `
-    <div class="largespacer"></div>
+    <div class="mediumspacer"></div>
     `
   )
   for (let x = 0; x < artList.length; x++) {
