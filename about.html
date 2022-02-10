@@ -66,8 +66,8 @@
                     <li><a href="index.html">Architectural design</a></li>
                     <li><a href="interior.html">Interior design</a></li>
                     <li><a href="art.html">Art</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="about.html#WK-contact">Contact</a></li>
+                    <li><a href="#" style="color:#797979;" id="about">About us</a></li>
+                    <li><a href="about.html#WK-contact" id="contact">Contact</a></li>
 
                 </ul>
 
@@ -100,10 +100,10 @@
 
         <nav>
             <ul>
-                <li><a href="index.html">Architectural design</a></li>
-                <li><a href="interior.html">Interior design</a></li>
-                <li><a href="art.html">Art</a></li>
-                <li><a href="about.html">About us</a></li>
+                <li><a href="index">Architectural Design</a></li>
+                <li><a href="interior">Interior Design</a></li>
+                <li><a href="art">Art</a></li>
+                <li><a href="about">About</a></li>
                 <li><a href="about.html#WK-contact">Contact</a></li>
 
             </ul>
@@ -311,7 +311,20 @@
     </script>
 
 
+    <script>
+        $('#contact').on('click', function () {
+            $('#contact').css('color', '#797979');
+            $('#about').css('color', 'black');
+        });
 
+        $('#about').on('click', function () {
+            console.log("contact");
+            $('#about').css('color', '#797979');
+            $('#contact').css('color', 'black');
+        });
+
+
+    </script>
 </body>
 
 </html>
